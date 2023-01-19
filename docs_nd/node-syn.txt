@@ -15,3 +15,8 @@ once documents create {end method should not be called for the same}
 once end method call then no more content will send to server it will throw error!
 
 creating URL to route the page with required request & response
+
+Definition and Usage
+The buffers module provides a way of handling streams of binary data.
+The Buffer object is a global object in Node.js, and it is not necessary to import it using the require keyword.
+
