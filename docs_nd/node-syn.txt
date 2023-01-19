@@ -8,3 +8,10 @@ Reference Site : https://developer.mozilla.org/en-US/docs/Web/JavaScript : To ch
 
 Module - 3 Create Node Server
 we have to follow some rules and these rules are defined by the protocol we use HTTP, or HTTPS. HTTP stands for hypertext transfer protocol and there we simply define where it is defined, how a valid request looks like and how the data should be transferred from browser to server and the other way around. And HTTPS simply is the same with SSL encryption turned on where all the data that is transmitted is actually encrypted so that if anyone is spoofing your connection, they can't read your data. Now towards the end of the course, I will show you how to enable HTTPS, for the majority we'll just use HTTP, since we'll only be developing that code, we'll only work on it locally. But once you put it into production, I will also show you how to turn on that SSL encryption. This is how the web works in a nutshell and how Node.js is related to it,
+
+19/23
+write method will create the content of HTML in Server
+once documents create {end method should not be called for the same}
+once end method call then no more content will send to server it will throw error!
+
+creating URL to route the page with required request & response
